@@ -3,18 +3,18 @@ import logo from '../../../assets/shopping-cart.png'
 const Navbar = () => {
     return (
         
- <div className="navbar bg-base-100 shadow-sm ">
+ <div className="navbar bg-base-100 shadow-sm mb-20">
   <div className=" max-w-7xl mx-auto m-full px-4">
     <div className="flex justify-between items-center w-full">
       <div className='navbar-start'>
        
       </div>
-       <a className="btn btn-ghost text-3xl font-bold bg-linear-to-r from-purple-900 to-purple-400 bg-clip-text text-transparent">DigiTools</a>
+       <a className="btn btn-ghost text-2xl lg:text-3xl font-bold bg-linear-to-r from-purple-900 to-purple-400 bg-clip-text text-transparent">DigiTools</a>
     </div>
    
   </div>
   <div className="navbar-center hidden lg:flex ">
-    <ul className="menu menu-horizontal px-1 font-semibold">
+    <ul className="menu menu-horizontal px-1 font-semibold text-[16px]">
       <li ><a href='#'>Products</a></li>
       <li> <a href="#">Features</a>
       </li>
