@@ -1,6 +1,7 @@
 import React from 'react';
 import img from '../../../assets/Play.png'
 import banner from '../../../assets/banner.png'
+import circle from '../../../assets/circle.png'
 const Banner = () => {
     return (
         <>
@@ -9,7 +10,7 @@ const Banner = () => {
             <div className='flex-1'>
            <div className='mb-4'>
            
-            <button className='flex items-center gap-2 px-4 py-2 text-purple-600 bg-blue-100  rounded-full'>  <span className='w-4 h-4 rounded-full bg-purple-400 inline-block' ></span>New: AI-Powered Tools Available</button>
+            <button className='flex items-center gap-2 px-4 py-2 text-purple-600 bg-blue-100  rounded-full'>  <span className='' ><img src={circle} alt="" /></span>New: AI-Powered Tools Available</button>
             </div>
             
             <h1 className='text-4xl font-bold mb-4'>Supercharge Your <br />

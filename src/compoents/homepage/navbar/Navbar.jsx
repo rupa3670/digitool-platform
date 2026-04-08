@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className='navbar-start'>
        
       </div>
-       <a className="btn btn-ghost text-2xl lg:text-3xl font-bold bg-linear-to-r from-purple-900 to-purple-400 bg-clip-text text-transparent">DigiTools</a>
+       <a className="btn btn-ghost text-2xl lg:text-3xl font-bold bg-linear-to-r from-blue-900 to-purple-500 bg-clip-text text-transparent">DigiTools</a>
     </div>
    
   </div>
