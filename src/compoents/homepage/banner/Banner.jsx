@@ -9,7 +9,7 @@ const Banner = () => {
             <div className='flex-1'>
            <div className='mb-4'>
            
-            <button className='flex items-center gap-2 px-4 py-2 text-purple-600 bg-purple-200  rounded-full'>  <span className='w-4 h-4 rounded-full bg-purple-400 inline-block' ></span>New: AI-Powered Tools Available</button>
+            <button className='flex items-center gap-2 px-4 py-2 text-purple-600 bg-blue-100  rounded-full'>  <span className='w-4 h-4 rounded-full bg-purple-400 inline-block' ></span>New: AI-Powered Tools Available</button>
             </div>
             
             <h1 className='text-4xl font-bold mb-4'>Supercharge Your <br />
@@ -20,8 +20,8 @@ const Banner = () => {
                 Explore Products
             </p>
         <div className='flex gap-4 flex-wrap'>
-            <button className='btn btn-getStarted bg-linear-to-r from-purple-900 to-purple-400 text-white font-semibold rounded-full'>Explore Products</button>
-            <button className='btn btn-getStarted text-purple-500 border-1 border-purple-500 bg-white font-semibold rounded-full'><span><img src={img} alt="play button" /></span>Watch Demo</button>
+            <button className='btn btn-getStarted bg-linear-to-r from-blue-900 to-purple-500 text-white font-semibold rounded-full hover:opacity-90 transition-all'>Explore Products</button>
+            <button className='btn btn-getStarted text-purple-500  border-purple-500 bg-white font-semibold rounded-full  transition-all'><span><img src={img} alt="play button" /></span>Watch Demo</button>
             </div>  
      </div>
      <div className='flex-1 flex justify-center '>

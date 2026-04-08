@@ -29,7 +29,7 @@ const Navbar = () => {
   <div className="navbar-end flex items-center gap-4 mx-auto ">
     <img src={logo} alt="shopping cart logo" />
     <a href="#" className='font-semibold'>Login</a>
-    <a className="btn btn-getStarted bg-linear-to-r from-purple-900 to-purple-400 text-white font-semibold rounded-full">Get Started</a>
+    <a className="btn btn-getStarted bg-linear-to-r from-blue-900 to-purple-500 text-white font-semibold rounded-full hover:opacity-90 transition-all">Get Started</a>
   </div>
 </div>
        
