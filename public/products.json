@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "AI Resume Builder",
+    "description": "Create professional, ATS-friendly resumes in minutes with AI-powered suggestions.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "AI Content Writer"],
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/30/6f/f7/306ff751-d965-50d3-2811-f113fdea6bb7/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/1200x630wa.png"
+  },
+  {
+    "id": 2,
+    "name": "Design Studio Pro",
+    "description": "All-in-one graphic design tool for social media and marketing materials.",
+    "price": 99,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["Vector Editing", "Stock Photos Access", "Team Collaboration"],
+    "icon": "https://img.icons8.com/fluency/96/design.png"
+  },
+  {
+    "id": 3,
+    "name": "Code Optimizer",
+    "description": "Automate code reviews and find performance bottlenecks instantly.",
+    "price": 199,
+    "period": "yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Multi-language Support", "Security Audit", "Github Integration"],
+    "icon": "https://img.icons8.com/fluency/96/code.png"
+  },
+  {
+    "id": 4,
+    "name": "SEO Master Tool",
+    "description": "Track keywords, audit your website, and spy on your competitors effortlessly.",
+    "price": 49,
+    "period": "monthly",
+    "tag": "Hot",
+    "tagType": "popular",
+    "features": ["Keyword Explorer", "Backlink Tracker", "Site Audit"],
+    "icon": "https://img.freepik.com/premium-psd/seo-tools-3d-icon_235528-2384.jpg?w=360"
+  },
+  {
+    "id": 5,
+    "name": "Social Auto-Post",
+    "description": "Schedule and automate your social media posts across all major platforms.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "Efficient",
+    "tagType": "best seller",
+    "features": ["Bulk Scheduling", "Analytics Dashboard", "Hashtag Generator"],
+    "icon": "https://img.icons8.com/fluency/96/share.png"
+  },
+  {
+    "id": 6,
+    "name": "Quick Video Editor",
+    "description": "Online video editor for creating quick Reels, TikToks, and YouTube Shorts.",
+    "price": 120,
+    "period": "yearly",
+    "tag": "Limited",
+    "tagType": "new",
+    "features": ["No Watermark", "4K Export", "Royalty Free Music"],
+    "icon": "https://img.icons8.com/fluency/96/video-editing.png"
+  },
+  {
+    "id": 7,
+    "name": "Email Campaigner",
+    "description": "Design and send high-converting email newsletters to your audience.",
+    "price": 30,
+    "period": "monthly",
+    "tag": "Top Rated",
+    "tagType": "best seller",
+    "features": ["Drag-drop Editor", "A/B Testing", "Email Automation"],
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA4_2iWflszL8RUF_LtpgEksR4v59Q9JkRBA&s"
+  },
+  {
+    "id": 8,
+    "name": "Cloud Backup Pro",
+    "description": "Securely store and sync your important files across all your devices.",
+    "price": 80,
+    "period": "yearly",
+    "tag": "Secure",
+    "tagType": "new",
+    "features": ["2TB Storage", "End-to-end Encryption", "File Recovery"],
+    "icon": "https://img.icons8.com/fluency/96/cloud-backup-restore.png"
+  },
+  {
+    "id": 9,
+    "name": "Grammar Checker",
+    "description": "AI-based writing assistant that fixes your grammar and improves tone.",
+    "price": 10,
+    "period": "monthly",
+    "tag": "Trending",
+    "tagType": "popular",
+    "features": ["Plagiarism Checker", "Tone Detector", "Browser Extension"],
+    "icon": "https://img.icons8.com/fluency/96/edit-file.png"
+  }
+]

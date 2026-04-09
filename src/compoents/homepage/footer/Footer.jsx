@@ -5,7 +5,7 @@ import instra from '../../../assets/Instagram.png'
 
 const Footer = () => {
     return (
-        <footer className=" bg-[#101727] text-white   p-10">
+        <footer className=" bg-[#101727] text-white   p-10 ">
             <div className='footer sm:footer-horizontal'>
                 <div>
                     <h2 className='text-3xl font-bold'>DigiTools</h2>

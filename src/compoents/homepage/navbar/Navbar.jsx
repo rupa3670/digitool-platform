@@ -3,7 +3,7 @@ import logo from '../../../assets/shopping-cart.png'
 const Navbar = () => {
     return (
         
- <div className="navbar bg-base-100 shadow-sm mb-20">
+ <div className="navbar bg-base-100 shadow-sm mb-10">
   <div className=" max-w-7xl mx-auto m-full px-4">
     <div className="flex justify-between items-center w-full">
       <div className='navbar-start'>

@@ -5,7 +5,7 @@ import circle from '../../../assets/circle.png'
 const Banner = () => {
     return (
         <>
-    <section className='bg-white py-5 lg:py-10 '>
+    <section className='bg-white py-3 lg:py-6 '>
          <div className='max-w-7xl mx-auto px-4 lg:px-8  flex flex-col lg:flex-row items-center justify-between gap-y-10'>
             <div className='flex-1'>
            <div className='mb-4'>
@@ -26,7 +26,7 @@ const Banner = () => {
             </div>  
      </div>
      <div className='flex-1 flex justify-center '>
-        <img className=' h-100 lg:h-150 rounded-2xl' src={banner} alt="banner img" />
+        <img className=' h-100 lg:h-150 rounded-2xl  lg:mb-10' src={banner} alt="banner img" />
      </div>
          </div>
     </section>

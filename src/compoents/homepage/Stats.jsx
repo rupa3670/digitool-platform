@@ -4,7 +4,7 @@ const Stats = () => {
     return (
 
 
-        <div className="stats shadow w-full bg-linear-to-r from-blue-900 to-purple-500 text-white py-6 rounded-none">
+        <div className="stats shadow w-full bg-linear-to-r from-blue-900 to-purple-500 text-white py-8 rounded-none mb-10 mx-auto">
             <div className="stat">
                 <div className="stat-figure text-primary">
                     
