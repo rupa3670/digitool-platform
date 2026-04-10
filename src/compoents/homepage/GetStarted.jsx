@@ -13,7 +13,7 @@ const GetStarted = () => {
         <div className=' grid grid-col-1 md:grid-cols-3 max-w-7xl mx-auto gap-10 px-10 md:px-30'>
             <div className="card bg-base-100 shadow-sm">
                 <div className='flex justify-end p-4'>
-                    <p className='bg-linear-to-r from-blue-900 to-purple-500 text-white rounded-full p-2  w-10 h-10'>01</p>
+                    <p className='bg-linear-to-r from-blue-900 to-purple-500 text-white rounded-full p-2  w-10 h-10 text-center'>01</p>
                 </div>
   <figure>
     <img className='bg-purple-100 p-3 rounded-full mt-8'
@@ -29,7 +29,7 @@ const GetStarted = () => {
 
 <div className="card bg-base-100  shadow-sm">
                 <div className='flex justify-end p-4'>
-                    <p className='bg-linear-to-r from-blue-900 to-purple-500 text-white rounded-full p-2  w-10 h-10'>02</p>
+                    <p className='bg-linear-to-r from-blue-900 to-purple-500 text-white rounded-full p-2  w-10 h-10 text-center'>02</p>
                 </div>
   <figure>
     <img className='bg-purple-100 p-3 rounded-full mt-8'
@@ -44,7 +44,7 @@ const GetStarted = () => {
 </div>
 <div className="card bg-base-100  shadow-sm">
                 <div className='flex justify-end p-4'>
-                    <p className='bg-linear-to-r from-blue-900 to-purple-500 text-white rounded-full p-2  w-10 h-10'>03</p>
+                    <p className='bg-linear-to-r from-blue-900 to-purple-500 text-white rounded-full p-2  w-10 h-10 text-center'>03</p>
                 </div>
   <figure>
     <img className='bg-purple-100 p-3 rounded-full mt-8 '
