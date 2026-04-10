@@ -28,7 +28,7 @@ function App() {
     <>
        {activeTab==="Products"&&  (
         <>
-        <Navbar /> 
+        <Navbar  carts={carts}/> 
           <Banner /> 
           <Stats />
         </>
@@ -40,7 +40,7 @@ function App() {
             <h2 className='text-4xl font-bold mb-4 '>Premium Digital Tools</h2>
             <p className='text-gray-500'>Choose from our curated collection of premium digital products designed <br /> to boost your productivity and creativity.</p>
         </div>
-      <Tabs activeTab={activeTab} setActiveTab={setActiveTab} />
+      <Tabs activeTab={activeTab} setActiveTab={setActiveTab} carts={carts} />
        
       
         {activeTab === "Products" ? (
