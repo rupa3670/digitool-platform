@@ -29,6 +29,15 @@ function App() {
     toast.error("Item remove to cart")
 
   };
+  const handleCheckOut=()=>{
+      if(carts.length>0){
+        setCarts([]);
+        toast.success("Purchase successful! Thank you",{position:"top-center"})
+      }
+      else{
+        toast.error("Your Cart is empty",{position:"top-center"})
+      }
+  };
   return (
     <>
       {activeTab === "Products" && (
@@ -50,7 +59,7 @@ function App() {
 
       {activeTab === "Products" ? (
         <Products productsPromise={productsPromise} carts={carts} setCarts={setCarts} />
-      ) : (<Cart carts={carts} handleRemoveCart={handleRemoveCart} />)
+      ) : (<Cart carts={carts} handleRemoveCart={handleRemoveCart} handleCheckOut={handleCheckOut}/>)
       }
 
 

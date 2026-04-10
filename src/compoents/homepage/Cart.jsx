@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Cart = ({ carts,handleRemoveCart }) => {
+const Cart = ({ carts,handleRemoveCart,handleCheckOut }) => {
     const totalPrice=carts.reduce((sum,item)=>sum+item.price,0);
     if (carts.length === 0) {
         return (
@@ -35,7 +35,7 @@ return(
             <p className='text-gray-500 text-xl'>Total:</p>
         <span className='text-xl font-semibold'>${totalPrice}</span>
         </div>
-         <button className="btn btn-block  bg-linear-to-r from-blue-900 to-purple-500 rounded-full text-white font-bold">Processed to Checkout</button>
+         <button onClick={handleCheckOut}className="btn btn-block  bg-linear-to-r from-blue-900 to-purple-500 rounded-full text-white font-bold">Proceed to Checkout</button>
     </div>
    
 </div>
