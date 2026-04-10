@@ -2,12 +2,12 @@ import React from 'react';
 
 const Pricing = () => {
     return (
-       <div className='py-20'>
+       <div className='py-10 md:py-20'>
          <div className='flex flex-col justify-center items-center text-center '>
             <h2 className=' text-3xl md:text-4xl font-bold'>Simple, Transparent Pricing</h2>
             <p className='text-sm  text-gray-500 mt-4'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
         </div>
- <div className='max-w-7xl mx-auto grid grid-col-1 md:grid-cols-3 mt-20 gap-8 px-10 md:px-30  '>
+ <div className='max-w-7xl mx-auto grid grid-col-1 md:grid-cols-3 mt-10 md:mt-20 gap-8 px-10 md:px-30  '>
            <div className="card  bg-gray-50 shadow-sm rounded-lg">
   <div className="card-body flex flex-col h-full">
     <div className="flex flex-col">

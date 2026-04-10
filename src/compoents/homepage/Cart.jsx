@@ -4,7 +4,7 @@ const Cart = ({ carts,handleRemoveCart }) => {
     const totalPrice=carts.reduce((sum,item)=>sum+item.price,0);
     if (carts.length === 0) {
         return (
-            <div className='flex flex-col items-center justify-center min-h-[400px] text-center border border-gray-300 p-8 shadow-sm mx-40 mt-10'>
+            <div className='flex flex-col items-center justify-center min-h-[400px] text-center border border-gray-300 p-8 shadow-sm mx-10 md:mx-40 mt-10'>
                 <h2 className='text-2xl font-bold '>Your Cart Is Empty</h2>
                 <p className='text-gray-500 mt-2'>Looks like you haven't added <br />any digital tools.
                 </p>
