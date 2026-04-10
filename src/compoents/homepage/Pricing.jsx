@@ -48,7 +48,7 @@ const Pricing = () => {
 <div className="card relative bg-linear-to-r from-blue-900 to-purple-500 text-white   shadow-sm ">
   <div className="card-body flex flex-col h-full  ">
     <div>
-        <span className='text-[#BB4D00] bg-[#fae7da] py-2 px-3 rounded-full text-center absolute -top-4 left-1/2 -translate-x-1/2 z-10 ' >Most Popular</span>
+        <span className='text-[#BB4D00] bg-[#fae7da] py-2 px-3 rounded-full text-center absolute -top-4 left-1/2 -translate-x-1/2  ' >Most Popular</span>
     </div>
     <div className="flex flex-col">
       <h2 className="text-2xl font-bold">Pro</h2>
