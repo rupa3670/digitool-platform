@@ -32,7 +32,7 @@ return(
         </div>
         )}
         <div className='flex justify-between'>
-            <p className='text-gray-500 text-sm'>Total:</p>
+            <p className='text-gray-500 text-xl'>Total:</p>
         <span className='text-xl font-semibold'>${totalPrice}</span>
         </div>
          <button className="btn btn-block  bg-linear-to-r from-blue-900 to-purple-500 rounded-full text-white font-bold">Processed to Checkout</button>

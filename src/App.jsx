@@ -8,6 +8,8 @@ import Navbar from './compoents/homepage/navbar/Navbar'
 import Products from './compoents/homepage/Products'
 import Stats from './compoents/homepage/Stats'
 import Tabs from './compoents/homepage/Tabs'
+import GetStarted from './compoents/homepage/GetStarted'
+import { toast } from 'react-toastify'
 
 const getProducts = async () => {
   const res = await fetch("/products.json")
@@ -22,6 +24,7 @@ function App() {
     const remainingCart=carts.filter(item=>
       item.id!==id);
       setCarts(remainingCart);
+      toast.error("Item remove to cart")
     
    };
   return (
@@ -47,6 +50,7 @@ function App() {
           <Products productsPromise={productsPromise} carts={carts} setCarts={setCarts} />
         ) : (<Cart carts={carts} handleRemoveCart={handleRemoveCart}/>)
         }
+        <GetStarted/>
      
   {activeTab==="Products"&&  <Footer />}
       

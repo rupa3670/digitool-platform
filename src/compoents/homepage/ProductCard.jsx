@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const ProductCard = ({allProducts,carts,setCarts}) => {
       const [isBuy, setIsBuy]=useState(false)
       const handleBuy=()=>{
         setIsBuy(true)
         setCarts([...carts,allProducts])
+        toast.success("Item added to cart!");
       }
    const getTagClass =(type) => {
  const tagStyles={
