@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../../assets/shopping-cart.png'
-const Navbar = () => {
+const Navbar = ({carts=[]}) => {
     return (
         
  <div className="navbar bg-base-100 shadow-sm mb-10">
@@ -27,7 +27,12 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end flex items-center gap-4 mx-auto ">
-    <img src={logo} alt="shopping cart logo" />
+   <div className='relative p-2 '>
+     <img src={logo} alt="shopping cart logo" />
+     {carts.length>0 &&(
+       <span className='absolute -top-1 -right-1 rounded-full '>{carts.length}</span>
+     )}
+   </div>
     <a href="#" className='font-semibold'>Login</a>
     <a className="btn btn-getStarted bg-linear-to-r from-blue-900 to-purple-500 text-white font-semibold rounded-full hover:opacity-90 transition-all">Get Started</a>
   </div>
