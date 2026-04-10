@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 
-const ProductCard = ({allProducts}) => {
+const ProductCard = ({allProducts,carts,setCarts}) => {
       const [isBuy, setIsBuy]=useState(false)
+      const handleBuy=()=>{
+        setIsBuy(true)
+        setCarts([...carts,allProducts])
+      }
    const getTagClass =(type) => {
  const tagStyles={
         "popular":"badge-info text-white rounded-full",
@@ -21,7 +25,7 @@ const ProductCard = ({allProducts}) => {
         <div>
             
                 <div key={allProducts.id} className="card w-fit bg-base-100 border border-gray-100 shadow-sm hover:shadow-md transition-all ">
-  <div className="card-body p-8">
+  <div className="card-body p-8 ">
     <div className='flex justify-between items-start mb-1 md:mb-4'>
         <div className='border border-gray-100 p-2 rounded-full'>
          <img src={allProducts.icon} alt=""  className='w-8 h-8'/>
@@ -38,7 +42,7 @@ const ProductCard = ({allProducts}) => {
         <span className='text-sm font-normal text-gray-500'>{periodLevel[allProducts.period]}</span>
 
     </div>
-    <ul className="mt-6 flex flex-col gap-3 text-sm text-gray-500">
+    <ul className=" mt-3 md:mt-6 flex flex-col gap-3 text-sm text-gray-500">
        {
          allProducts.features.map((feature, index)=>(
  <li key={index} className='flex items-center gap-2'>
@@ -52,7 +56,7 @@ const ProductCard = ({allProducts}) => {
       
     </ul>
     <div className=" mt-3 md:mt-6">
-      <button onClick={()=> setIsBuy(true)} className="btn btn-block rounded-full  bg-linear-to-r from-blue-900 to-purple-500 text-white font-semibold">{isBuy ? "Purchased" : "Buy Now"}</button>
+      <button onClick={handleBuy} className="btn btn-block rounded-full  bg-linear-to-r from-blue-900 to-purple-500 text-white font-semibold">{isBuy ? "Purchased" : "Buy Now"}</button>
     </div>
   </div>
 </div>
