@@ -1,16 +1,17 @@
-# React + Vite
+<h1>DigiTools-Digital Marketplace</h1>
+<p>Digitools is a sleek, responsive React application built for <br> exploring and managing premium digital products <br> with a seamless shopping experience</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h3>Technologies used</h3>
+<ul>
+<li>React.js</li>
+<li>Tailwind css and DaisyUI</li>
+<li>React-Toastify</li>
+<li>JSON Data</li>
+</ul>
+<h3>Key Features</h3>
+<ol>
+<li>Live Cart Synchronization: Implements real-time cart updates, reflecting items counts in the navigation and maintaining data integrity across components</li>
+<li>State Driven UI:Seamlessly toggles between products catalog and shopping cart views using catalog and shopping cart view using React condition rendering</li>
+<li>Actionable Notifications:Integrated React-Toastify to provide instant visual feedback for adding, removing and checking out products</li>
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+</ol>

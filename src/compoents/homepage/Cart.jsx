@@ -28,7 +28,7 @@ return(
               <p className='text-gray-500 text-sm'>${item.price}</p>
           </div>
          </div>
-          <button onClick={()=>handleRemoveCart(item.id)} className='text-red-500 font-bold '>Remove</button>
+          <button onClick={()=>handleRemoveCart(item.id)} className='text-red-500 font-bold cursor cursor-pointer '>Remove</button>
         </div>
         )}
         <div className='flex justify-between'>

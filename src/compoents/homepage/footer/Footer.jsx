@@ -6,7 +6,7 @@ import instra from '../../../assets/Instagram.png'
 const Footer = () => {
     return (
         <footer className=" bg-[#101727] text-white   p-10 ">
-            <div className=' w-7xl mx-auto grid grid-col-1 sm:grid-cols-3 lg:grid-cols-5 gap-10 lg:gap-4'>
+            <div className='max-w-7xl mx-auto grid grid-col-1 sm:grid-cols-3 lg:grid-cols-5 gap-10 lg:gap-4'>
                 <div className=' px-4 text-left '>
                     <h2 className='text-3xl font-bold mb-3 '>DigiTools</h2>
                     <p className='text-gray-500 '>Premium digital tools for creators,<br /> professionals, and businesses. Work smarter <br /> with our suite of powerful tools.</p>

@@ -24,9 +24,9 @@ const ProductCard = ({allProducts,carts,setCarts}) => {
         yearly:"/year",
     }
     return (
-        <div>
+        <div className='w-full flex justify-center'>
             
-                <div key={allProducts.id} className="card w-fit bg-base-100 border border-gray-100 shadow-sm hover:shadow-md transition-all ">
+                <div key={allProducts.id} className="card w-full bg-base-100 border border-gray-100 shadow-sm hover:shadow-md transition-all ">
   <div className="card-body p-8 ">
     <div className='flex justify-between items-start mb-1 md:mb-4'>
         <div className='border border-gray-100 p-2 rounded-full'>
