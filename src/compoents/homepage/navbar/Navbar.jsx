@@ -26,9 +26,9 @@ const Navbar = ({carts=[]}) => {
       </li>
     </ul>
   </div>
-  <div className="navbar-end flex items-center gap-4 mx-auto ">
+  <div className=" flex items-center gap-4 mx-auto ">
    <div className='relative p-2 '>
-     <img className='' src={logo} alt="shopping cart logo" />
+     <img className=' md:w-6 md:h-6 w-4 h-4 ' src={logo} alt="shopping cart logo" />
      {carts.length>0 &&(
        <span className='absolute -top-1 -right-1 rounded-full text-purple-500 font-bold'>{carts.length}</span>
      )}
