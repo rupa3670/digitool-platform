@@ -1,4 +1,4 @@
-<h1>DigiTools-Digital Marketplace</h1>
+<h1>DigiTools-Platform</h1>
 <p>Digitools is a sleek, responsive React application built for <br> exploring and managing premium digital products <br> with a seamless shopping experience</p>
 
 <h3>Technologies used</h3>
